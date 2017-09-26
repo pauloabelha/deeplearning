@@ -12,7 +12,8 @@
 # INSTALLATION
 
 # 1 Follow ALL installation steps (including validation) in:
-https://www.tensorflow.org/install/install_linux
+https://www.tensorflow.org/install/install_linux#InstallingDocker
+And follow the GPU support subsection
 
 # GETTING IMAGES AND CREATING CONATINERS
 
