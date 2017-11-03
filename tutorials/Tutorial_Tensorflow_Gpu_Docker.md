@@ -18,38 +18,30 @@ SO YOU END UP WITH YOUR OWN TENSORFLOW MODIFIED IMAGE
     - 1.1) Follow ALL installation steps in: https://www.tensorflow.org/install/install_linux#InstallingDocker
     - 1.2) Make sure you also follow the GPU support subsection
 
-# 
 2) Getting images and creating containers
-    - 2.1) Run command to list all images:
+    - 2.1) List all images:
         - `sudo nvidia-docker images`
     - 2.2) You should see the image:
-        REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
+        `REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE`
+	
 	gcr.io/tensorflow/tensorflow   latest-gpu          8fa36e7840e4        11 days ago         2.78GB
-    - 2.3) Run command to list all images:
-        - `sudo nvidia-docker run -ti gcr.io/tensorflow/tensorflow:latest-gpu bash`	
-
-# 3 You should be inside the container seeing something like:
-root@11016584a711:/notebooks# 
-
-# 4 Run command to exit container (or press Ctrl+D):
-exit
-
-# MODIFYING CONTAINERS AND CREATING YOUR OWN IMAGE
-
-# 5 Run command to list your current containers:
-sudo nvidia-docker ps -a
-
-# 6 You should see something like (container name: adoring_tesla)
+    - 2.3) Enter the container:
+        - `sudo nvidia-docker run -ti gcr.io/tensorflow/tensorflow:latest-gpu bash`
+    - 2.4) Wait for the downloads to finish and you should be inside the container seeing something like:
+        `root@11016584a711:/notebooks#` 
+    - 2.5) Exit container (also done by pressing Ctrl+D):
+    	`exit`
+3) Modifying containers and creating your own image
+    - 3.1) List your current containers:
+        - `sudo nvidia-docker ps -a`
+    - 3.2) You should see something like (container name: adoring_tesla)
 CONTAINER ID        IMAGE                                     COMMAND             CREATED             STATUS                     PORTS               NAMES
 5e1c9fed6f19        gcr.io/tensorflow/tensorflow:latest-gpu   "bash"              14 seconds ago      Exited (0) 7 seconds ago                       adoring_tesla
-
-	# 6.1 The container name will be some random nice name - I got adoring_tesla :)
-
-# 7 Start your container by its name
-sudo nvidia-docker start adoring_tesla
-
-# 8 Execute to connect to the container (and get a terminal with 'bash'):
-sudo nvidia-docker start adoring_tesla bash
+    - 3.3) The container name will be some random nice name - I got adoring_tesla :)
+    - 3.4) Start your container by its name:
+        - `sudo nvidia-docker start adoring_tesla`
+    - 3.5) Connect to the container (and get a terminal with 'bash'):
+        - `sudo nvidia-docker start adoring_tesla bash`
 
 # 9 Once inside the container, modify it by installing something
 
