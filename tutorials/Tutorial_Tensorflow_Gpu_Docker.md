@@ -5,14 +5,14 @@ By Paulo Abelha
 
 E-mail: pauloabelha@gmail.com
 
-# Thanks to Ahmed Hussein for all his tips and cheat sheet
-# Specially for the solution for the DNS problem!
+Thanks to Ahmed Hussein for all his tips and cheat sheet
+Specially for the solution for the DNS problem!
 
-# DISCLAIMER:
-# TUTORIAL FOR SETTING UP TENSORFLOW ON LOCAL MACHINE (WITH GPU)
-# THIS TUTORIAL WILL MODIFY YOUR IMAGES AND CONTAINERS
-# IT IS INTENDED TO BE DONE FROM SCRATCH 
-# SO YOU END UP WITH YOUR OWN TENSORFLOW MODIFIED IMAGE
+DISCLAIMER:
+TUTORIAL FOR SETTING UP TENSORFLOW ON LOCAL MACHINE (WITH GPU)
+THIS TUTORIAL WILL MODIFY YOUR IMAGES AND CONTAINERS
+IT IS INTENDED TO BE DONE FROM SCRATCH 
+SO YOU END UP WITH YOUR OWN TENSORFLOW MODIFIED IMAGE
 
 1) Installation
     - 1.1) Follow ALL installation steps in: https://www.tensorflow.org/install/install_linux#InstallingDocker
