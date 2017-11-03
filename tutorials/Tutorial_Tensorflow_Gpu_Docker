@@ -1,4 +1,9 @@
-# By Paulo Abelha (p.abelha@abdn.ac.uk)
+# deeplearning
+Tutorial for setting up TensorFlow with GPU on your local computer
+
+By Paulo Abelha
+
+E-mail: pauloabelha@gmail.com
 
 # Thanks to Ahmed Hussein for all his tips and cheat sheet
 # Specially for the solution for the DNS problem!
@@ -9,23 +14,19 @@
 # IT IS INTENDED TO BE DONE FROM SCRATCH 
 # SO YOU END UP WITH YOUR OWN TENSORFLOW MODIFIED IMAGE
 
-# INSTALLATION
+1) Installation
+    - 1.1) Follow ALL installation steps in: https://www.tensorflow.org/install/install_linux#InstallingDocker
+    - 1.2) Make sure you also follow the GPU support subsection
 
-# 1 Follow ALL installation steps (including validation) in:
-https://www.tensorflow.org/install/install_linux#InstallingDocker
-And follow the GPU support subsection
-
-# GETTING IMAGES AND CREATING CONATINERS
-
-# 2 Run command to list all images
-sudo nvidia-docker images
-
-	# 2.1 You should see the image:
-	REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
+# 
+2) Getting images and creating containers
+    - 2.1) Run command to list all images:
+        - `sudo nvidia-docker images`
+    - 2.2) You should see the image:
+        REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
 	gcr.io/tensorflow/tensorflow   latest-gpu          8fa36e7840e4        11 days ago         2.78GB
-
-	# 2.2 To run and enter a container of this image, run:
-	sudo nvidia-docker run -ti gcr.io/tensorflow/tensorflow:latest-gpu bash
+    - 2.3) Run command to list all images:
+        - `sudo nvidia-docker run -ti gcr.io/tensorflow/tensorflow:latest-gpu bash`	
 
 # 3 You should be inside the container seeing something like:
 root@11016584a711:/notebooks# 
