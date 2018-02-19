@@ -1,5 +1,7 @@
 
-This is a mini tutorial to get you started in deep learning for computer vision with a complete developer environment. 
+This is a mini tutorial to get you started in deep learning for computer vision with a complete developer environment.
+
+The idea is to have the fastest way you can have Deep Learning running on your computer and be ready to code your own stuff.
 
 This tutorial is tailored for Ubuntu users. Ubuntu is nice. https://www.ubuntu.com/about
 
