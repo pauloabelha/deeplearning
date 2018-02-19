@@ -3,7 +3,7 @@ This is a mini tutorial to get you started in deep learning for computer vision 
 
 This tutorial is tailored for Ubuntu users. Ubuntu is nice. https://www.ubuntu.com/about
 
-Please go to https://github.com/wxs/keras-mnist-tutorial for code explanation
+After following the steps below to set up your environment, please go to https://github.com/wxs/keras-mnist-tutorial for code explanation
 
 By following this README file you are going to get your computer up and running for deep learning!
 We are going to have to install:
