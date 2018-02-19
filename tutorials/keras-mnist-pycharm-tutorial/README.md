@@ -57,10 +57,14 @@ When your program finished, you should see the smething similar to these output 
 [![Step 7](https://github.com/pauloabelha/deeplearning/blob/master/tutorials/keras-mnist-pycharm-tutorial/images/keras-mnist-tutorial-pycharm7.png?raw=true)]
 
 And also your train and test accuracies on the console output:
-Train score: 0.03838914178852768
-Train accuracy: 0.9873
-Test score: 0.07912812198924367
-Test accuracy: 0.9782
+
+``Train score: 0.03838914178852768``
+
+``Train accuracy: 0.9873``
+
+``Test score: 0.07912812198924367``
+
+``Test accuracy: 0.9782``
 
 Congratulations! You ran your first Deep Leaning program.
 If you want to run your program again, you can just press Shift+F10.
